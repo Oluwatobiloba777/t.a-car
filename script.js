@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function (){
 
   
 
-const words = ["Car Screen Installation... ", "Car DVR/Dash Cam... ", "Car Ambient Lights... ", "Car Audio installations... ", "All Car Kits... ", "Car Tracker... ", "Home CCTV Installation... "];
+const words = ["Screen Installation..", "DVR/Dash Cam..", "Ambient Lights..", "Audio installation..", "All Car Kits..", "Car Tracker..",];
 let i = 0;
 let j = 0;
 let currentWord = "";
@@ -31,5 +31,8 @@ function typewriter() {
 }
 
 typewriter();
+
+
+document.getElementById('year').textContent = new Date().getFullYear();
 
 });
