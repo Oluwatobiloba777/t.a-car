@@ -1,7 +1,11 @@
 {
   "dependencies": {
     "@tailwindcss/cli": "^4.3.2",
+    "animejs": "^4.5.0",
     "preline": "^4.2.0",
     "tailwindcss": "^4.3.2"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.5.1": true
   }
 }
